@@ -1,9 +1,9 @@
 ## About ##
 
-This class enables you to set php.ini directives at runtime. Settings class uses ini_set to set php.ini directives. This enables you to setup PHP the way you like it from within your application. Not all php.ini directives can be changed on the runtime, check here for reference: [http://www.php.net/manual/en/ini.list.php](http://www.php.net/manual/en/ini.list.php). This class is useful on shared hosting where you don't have access to php.ini file. Joust instanciate this class at bootstrap level and setup PHP the way you want.
+This class enables you to set php.ini directives at runtime. Settings class uses ini_set to set php.ini directives. This enables you to setup PHP the way you like it from within your application. Not all php.ini directives can be changed on the runtime, check here for reference: [http://www.php.net/manual/en/ini.list.php](http://www.php.net/manual/en/ini.list.php). This class is useful on shared hosting where you don't have access to php.ini file. Just instantiate this class at bootstrap level and setup PHP the way you want.
 
 ## Usage ##
-You should use this class at bootstrap level or in your front controller. Instanciate Settings class like this:
+You should use this class at bootstrap level or in your front controller. Instantiate Settings class like this:
 <pre>
 $settings = new \Core\Settings\Settings();
 </pre>
